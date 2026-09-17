@@ -1,0 +1,81 @@
+/* Typography System */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif;
+  color: var(--text-primary);
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+}
+
+.display-1 {
+  font-size: clamp(2.5rem, 5vw + 1rem, 4.25rem);
+  font-weight: 800;
+  line-height: 1.08;
+  letter-spacing: -0.035em;
+}
+
+.display-2 {
+  font-size: clamp(2rem, 3.5vw + 1rem, 3rem);
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+}
+
+h1 {
+  font-size: clamp(2rem, 3vw + 0.5rem, 2.75rem);
+  letter-spacing: -0.03em;
+}
+
+h2 {
+  font-size: clamp(1.5rem, 2vw + 0.5rem, 2rem);
+  letter-spacing: -0.025em;
+}
+
+h3 {
+  font-size: 1.35rem;
+  letter-spacing: -0.02em;
+}
+
+h4 {
+  font-size: 1.15rem;
+  letter-spacing: -0.015em;
+}
+
+.text-lead {
+  font-size: 1.15rem;
+  line-height: 1.65;
+  color: var(--text-secondary);
+}
+
+.text-body {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+}
+
+.text-small {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: var(--text-muted);
+}
+
+.text-micro {
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.text-gradient {
+  background: var(--grad-hero-text);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+.text-gradient-accent {
+  background: var(--grad-accent);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
